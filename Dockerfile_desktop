@@ -43,4 +43,8 @@ RUN \
 
 ENV JAVA_HOME=/config/jdk-21.0.3+9-jre
 
+# Mend traceability labels
+LABEL io.mend.image.dockerfile.path=main/Dockerfile_desktop
+LABEL org.opencontainers.image.source=https://github.com/GHCbflam1/TheGoat
+
 WORKDIR /config/Desktop
